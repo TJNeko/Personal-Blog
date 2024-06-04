@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Personal Blog</h1>
+        </header>
+        <form id="blog-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Blog Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Blog Content:</label>
+                <textarea id="content" name="content" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-error" class="error hidden">Please complete all fields.</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

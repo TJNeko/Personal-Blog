@@ -76,3 +76,7 @@
 .dark-mode .blog-post p {
     color: #ccc;
 }
+
+.dark-mode {
+    background-color: #222;
+}

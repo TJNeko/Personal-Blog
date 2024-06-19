@@ -42,3 +42,37 @@
 .blog-post p {
     color: #666;
 }
+
+
+.dark-mode .blog-header {
+    background-color: #333;
+}
+
+.dark-mode .blog-header h2 {
+    color: #fff;
+}
+
+.dark-mode .toggle-container button {
+    background-color: #fff;
+    color: #333;
+}
+
+.dark-mode .toggle-container button:hover {
+    background-color: #ccc;
+}
+
+.dark-mode .blog-content {
+    background-color: #222;
+}
+
+.dark-mode .blog-post {
+    border-color: #555;
+}
+
+.dark-mode .blog-post h3 {
+    color: #fff;
+}
+
+.dark-mode .blog-post p {
+    color: #ccc;
+}

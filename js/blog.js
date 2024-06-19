@@ -29,4 +29,22 @@ const fetchBlogPosts = async () => {
     }
 };
 
+
+document.addEventListener("DOMContentLoaded", () => {
+    const modeToggle = document.getElementById("mode-toggle");
+
+
+    modeToggle.addEventListener("change", () => {
+        if (modeToggle.checked) {
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("darkMode", "enabled");
+        } else {
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("darkMode", "disabled");
+        }
+    });
+});
+
+    fetchBlogPosts();
+});
 window.addEventListener('load', fetchBlogPosts);
